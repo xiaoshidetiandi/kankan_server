@@ -1,0 +1,33 @@
+{
+  "name": "xz_video_backend",
+  "version": "1.0.0",
+  "description": "XuHaiFeng Backend Sytem",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node ./test.js",
+    "start": "node ./app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiaoshidetiandi/xz_video.git"
+  },
+  "keywords": [
+    "xuhaifeng_video",
+    "backend",
+    "api"
+  ],
+  "author": "XuHaiFeng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xiaoshidetiandi/xz_video/issues"
+  },
+  "homepage": "https://github.com/xiaoshidetiandi/xz_video#readme"
+}
